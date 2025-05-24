@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import image1 from "../assets/image.png";
 import image2 from "../assets/image1.png";
 import image3 from "../assets/image2.png";
+import { FaArrowDown } from "react-icons/fa";
+
 
 import { Link } from "react-router-dom";
 
@@ -57,10 +59,12 @@ export default function Home() {
             cursor: "pointer",
         }}
         >
+        <FaArrowDown />
         Check our new Commencal Meta SX V5
+        <FaArrowDown />
         </Link>
       <iframe
-            width="1100"
+            width="1500"
             height="750"
             src="https://www.youtube.com/embed/s9n6JicM4SY"
             title="YouTube video"
@@ -69,6 +73,7 @@ export default function Home() {
             allowFullScreen
             style={{ marginBottom: "20px" }}
       ></iframe>
+        
 
       </div>
     </div>
