@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import image1 from "../assets/image.png";
 import image2 from "../assets/image1.png";
 import image3 from "../assets/image2.png";
+import image4 from "../assets/image3.png";
+import image5 from "../assets/image4.png";
 import { FaArrowDown } from "react-icons/fa";
 
 
 import { Link } from "react-router-dom";
 
-const images = [image1, image2, image3];
+const images = [image1, image2, image3, image4, image5];
 
 export default function Home() {
   const [index, setIndex] = useState(0);

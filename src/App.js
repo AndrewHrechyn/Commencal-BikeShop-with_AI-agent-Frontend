@@ -14,6 +14,7 @@ import CommencalMetaSXV5 from "./pages/CommencalMetaSXV5";
 import CommencalTempo from "./pages/CommencalTempo";
 import CommencalSupremeDHV5 from "./pages/CommencalSupremeDHV5";
 import HowToBuy from "./pages/HowToBuy";
+import Contacts from "./pages/Contacts";
 
 export default function App() {
   return (
@@ -27,7 +28,7 @@ export default function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/info" element={<InfoPage />} />
           <Route path="/checkout" element={<Checkout />} />
-
+          <Route path="/contacts" element={<Contacts />} />
 
           <Route path="/commencal-meta-sx-v5" element={<CommencalMetaSXV5 />} />
           <Route path="/commencal-tempo" element={<CommencalTempo />} />
