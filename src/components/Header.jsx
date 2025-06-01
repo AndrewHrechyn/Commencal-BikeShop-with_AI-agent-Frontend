@@ -121,17 +121,23 @@ export default function Header() {
                 </div>
             </div>
         
-            <div className="nav-item-with-dropdown" style={{ position: "relative" }}>
+            {/* <div className="nav-item-with-dropdown" style={{ position: "relative" }}>
                 <Link to="/frames" style={linkStyle}>Frames</Link>
                 <div className="dropdown-menu">
-                    <Link to="/products/aluminum" style={linkStyle}>Aluminum</Link>
-                    <Link to="/products/carbon" style={linkStyle}>Carbon</Link>
-                    <Link to="/products/steel" style={linkStyle}>Steel</Link>
-                    <Link to="/products/titanium" style={linkStyle}>Titanium</Link>
+                    <Link to="/frames/aluminum" style={linkStyle}>Aluminum</Link>
+                    <Link to="/frames/carbon" style={linkStyle}>Carbon</Link>
+                    <Link to="/frames/steel" style={linkStyle}>Steel</Link>
+                    <Link to="/frames/titanium" style={linkStyle}>Titanium</Link>
                 </div>
-            </div>
+            </div> */}
 
-        <div className="nav-item-with-dropdown" style={{ position: "relative" }}>
+        <div>
+          <Link to="/frames" style={linkStyle}>Frames</Link>
+        </div>
+
+
+
+        {/* <div className="nav-item-with-dropdown" style={{ position: "relative" }}>
                 <Link to="/components" style={linkStyle}>Components</Link>
                 <div className="dropdown-menu">
                     <Link to="/components/tires" style={linkStyle}>Tires</Link>
@@ -140,8 +146,8 @@ export default function Header() {
                     <Link to="/components/forks" style={linkStyle}>Forks</Link>
                     <Link to="/components/handlebars" style={linkStyle}>Handlebars</Link>
                 </div>
-            </div>
-        <div className="nav-item-with-dropdown" style={{ position: "relative" }}>
+            </div> */}
+        {/* <div className="nav-item-with-dropdown" style={{ position: "relative" }}>
                 <Link to="/clothes" style={linkStyle}>Components</Link>
                 <div className="dropdown-menu">
                     <Link to="/clothes/t-shirts" style={linkStyle}>T-shirts</Link>
@@ -150,10 +156,10 @@ export default function Header() {
                     <Link to="/components/gloves" style={linkStyle}>Gloves</Link>
                     <Link to="/components/boots" style={linkStyle}>Boots</Link>
                 </div>
-            </div>
-        <Link to="/racing-team" style={linkStyle}>
+            </div> */}
+        {/* <Link to="/racing-team" style={linkStyle}>
             Racing Team 
-        </Link>
+        </Link> */}
         <Link to="/info" style={linkStyle}>
             Info
         </Link>
